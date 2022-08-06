@@ -1,0 +1,5 @@
+efficient_knn/datasets
+efficient_knn/trained_models
+efficient_knn/__pycache__
+.idea/
+.tox/

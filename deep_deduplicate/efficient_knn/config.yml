@@ -1,0 +1,29 @@
+# Package Overview
+package_name: efficient_knn
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+pipeline_save_file: regression_model_output_v
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: SalePrice
+pipeline_name: efficient_knn
+
+# set train/test split
+test_size: 0.1
+
+# to set the random seed
+random_state: 0
+
+alpha: 0.001
+
+text_var:
+  - title
+
+image_var:
+  - image
+
+weight_path: trained_models/efficientnetb5_notop.h5
+image_path: datasets/train_images/
